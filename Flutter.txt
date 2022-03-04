@@ -1,1 +1,51 @@
-https://github.com/Bohemiarmy007/Flutter.git
+void main() {
+    print("======================Marksheet======================\n");
+  
+  print ("**Saint Patrick's High School**");
+  double maths=90;
+  double economics=80;
+  double chinese=90;
+  double physics=25;
+  double english=85;
+    print ("Student Name : Saud Shaikh");
+  print ("Class        : 1st year");
+  print ("Roll No      : 53550\n");
+     print ("_____________________________________________________");
+  print ("S#no    Subject    Total Marks    obtained marks");
+     print ("_____________________________________________________\n");
+  print ("01.     maths        100            $maths");
+ print ("02.     econnomics   100            $economics");
+  print("03.     chinese      100            $chinese");
+  print("04.     physics      100            $physics");
+  print("05.     english      100            $english\n");
+   print ("========================================================\n");
+var sum =(maths+economics+chinese+physics+english);
+  num divide =(sum/500*100);
+    print ("Total Marks    = 500");
+print ("Obtained Marks = $sum");
+  print ("Percentage = $divide%\n");
+if(divide >=90)
+{
+  print ("Your Grade is A+");
+}
+  else if (divide >=80)
+  {
+    print ("Your Grade is A");
+  }
+  else if (divide >=70)
+  {
+    print ("Your Grade is B");
+  }
+  else if (divide >=60)
+  {
+    print ("Your Grade is C");
+  }
+  else if (divide <50)
+  {
+  print("Your Grade is F");
+  }
+  else ()
+{
+print("******\n");
+  };
+}
